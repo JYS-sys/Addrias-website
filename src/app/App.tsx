@@ -10,7 +10,7 @@ import { MentionsLegalesPage } from "@/app/components/MentionsLegalesPage";
 import { PolitiqueConfidentialitePage } from "@/app/components/PolitiqueConfidentialitePage";
 import { PolitiqueCookiesPage } from "@/app/components/PolitiqueCookiesPage";
 import { useState } from "react";
-import logoImage from "@/assets/245b092ace25656ba9bb8b534f7c7d609d75f2ac.png";
+import logoImage from "@/assets/2.png";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<"home" | "startup" | "immobilier" | "finances" | "news" | "philosophie" | "gouvernance" | "carriere" | "mentions" | "politique" | "cookies">("home");
@@ -62,7 +62,7 @@ export default function App() {
         {/* Header - responsive logo */}
         <header className="pt-8 pb-4 md:pt-12 md:pb-6 lg:pt-4 lg:pb-4">
           <div>
-            <img src={logoImage} alt="LLANORES" className="h-36 md:h-44 lg:h-64 opacity-90" />
+            <img src={logoImage} alt="LLANORES" className="h-32 md:h-40 lg:h-56 opacity-90" />
           </div>
         </header>
 
