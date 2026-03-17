@@ -22,7 +22,7 @@ export function CarrierePage({
         <header className="pt-8 pb-4 md:pt-12 md:pb-6 lg:pt-4 lg:pb-4">
           <div>
             <button onClick={onBack} className="cursor-pointer active:opacity-70 transition-opacity">
-              <img src={logoImage} alt="LLANORES" className="h-24 md:h-32 lg:h-48 opacity-90" />
+              <img src={logoImage} alt="LLANORES" className="h-32 md:h-40 lg:h-56 opacity-90" />
             </button>
           </div>
         </header>

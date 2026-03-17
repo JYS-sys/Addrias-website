@@ -62,7 +62,7 @@ export default function App() {
         {/* Header - responsive logo */}
         <header className="pt-8 pb-4 md:pt-12 md:pb-6 lg:pt-4 lg:pb-4">
           <div>
-            <img src={logoImage} alt="LLANORES" className="h-24 md:h-32 lg:h-48 opacity-90" />
+            <img src={logoImage} alt="LLANORES" className="h-32 md:h-40 lg:h-56 opacity-90" />
           </div>
         </header>
 
@@ -77,6 +77,9 @@ export default function App() {
                 <h1 className="text-[#0A0A0A] text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
                   Studios
                 </h1>
+                <p className="text-[#0A0A0A] text-xs md:text-sm font-normal tracking-wide mt-6">
+                  Architecture d'entreprises et investissements stratégiques.
+                </p>
               </div>
 
               {/* Four decision gateways - responsive grid */}
